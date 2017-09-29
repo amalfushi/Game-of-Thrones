@@ -1,11 +1,50 @@
 *{
     margin: 0px;
     padding: 0px;
-    outline: 1px dotted darkred;
+    /* outline: 1px dotted darkred; */
 }
 
 #wrapper{
-    width: 970px;
+    width: 1320px;
     height: 970px;
     margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#houses{
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+     height: 150px;
+     width: 300px;
+}
+
+#house_details{
+    margin-top: 40px;
+    width: 600px;
+    height: 400px;
+    align-self: center;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p{
+    font-size: 25px;
+}
+
+legend{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+span{
+    font-weight: bold;
 }
